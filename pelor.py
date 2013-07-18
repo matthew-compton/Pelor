@@ -1,8 +1,9 @@
 import cmd, sys
 
 class PelorShell(cmd.Cmd):
-	intro = 'Hail Pelor!\nType help or ? to list commands.\n'
+	intro = "Hail Pelor!\nType 'help' or '?' to list commands.\nType 'quit' or 'exit' to escape.\n"
 	prompt = 'pelor ~ $ '
+	ruler = '-'
     
 	# ----- Commands -----
 	
@@ -39,4 +40,5 @@ class PelorShell(cmd.Cmd):
 		return True
 
 if __name__ == '__main__':
-    PelorShell().cmdloop()
+	shell = PelorShell()
+    shell.cmdloop()
