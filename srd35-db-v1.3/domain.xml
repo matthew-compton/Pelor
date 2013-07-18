@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<domains>
+  <domain>
+    <name>Artifice</name>
+    <granted_powers>Gain +4 bonus on Craft checks. The character casts conjuration (creation) spells at +1 caster level. (Those with access to both the Artifice and Creation domains cast conjuration [creation] spells at +3 caster level.)</granted_powers>
+    <spell_1>animate rope</spell_1>
+    <spell_2>wood shape</spell_2>
+    <spell_3>stone shape</spell_3>
+    <spell_4>minor creation</spell_4>
+    <spell_5>fabricate</spell_5>
+    <spell_6>major creation</spell_6>
+    <spell_7>hardening</spell_7>
+    <spell_8>true creation</spell_8>
+    <spell_9>prismatic sphere</spell_9>
+    <full_text>
+      <div topic="Artifice Domain" level="2"><p><h2>Artifice Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Gain +4 bonus on Craft checks. The character casts conjuration (creation) spells at +1 caster level. (Those with access to both the Artifice and Creation domains cast conjuration [creation] spells at +3 caster level.)</p>
+</div><div topic="Artifice Domain Spells" level="5"><p><h5><b>Artifice Domain Spells</b></h5></p><div topic="Animate Rope" level="8"><p><b>1 Animate rope</b></p>
+</div><div topic="Wood Shape" level="8"><p><b>2 Wood shape</b></p>
+</div><div topic="Stone Shape" level="8"><p><b>3 Stone shape</b></p>
+</div><div topic="Minor Creation" level="8"><p><b>4 Minor creation</b></p>
+</div><div topic="Fabricate" level="8"><p><b>5 Fabricate</b></p>
+</div><div topic="Major Creation" level="8"><p><b>6 Major creation</b></p>
+</div><div topic="Hardening" level="8"><p><b>7 Hardening</b></p>
+</div><div topic="True Creation" level="8"><p><b>8 True creation</b></p>
+</div><div topic="Prismatic Sphere" level="8"><p><b>9 Prismatic sphere</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Charm</name>
+    <granted_powers>The character can boost his or her Charisma by 4 points once per day. Activating this power is a free action. The Charisma increase lasts 1 minute.</granted_powers>
+    <spell_1>charm person</spell_1>
+    <spell_2>calm emotions</spell_2>
+    <spell_3>suggestion</spell_3>
+    <spell_4>emotion</spell_4>
+    <spell_5>charm monster</spell_5>
+    <spell_6>geas/quest</spell_6>
+    <spell_7>insanity</spell_7>
+    <spell_8>demand</spell_8>
+    <spell_9>dominate monster</spell_9>
+    <full_text>
+      <div topic="Charm Domain" level="2"><p><h2>Charm Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> The character can boost his or her Charisma by 4 points once per day. Activating this power is a free action. The Charisma increase lasts 1 minute.</p>
+</div><div topic="Charm Domain Spells" level="5"><p><h5><b>Charm Domain Spells</b></h5></p><div topic="Charm Person" level="8"><p><b>1 Charm person</b></p>
+</div><div topic="Calm Emotions" level="8"><p><b>2 Calm emotions</b></p>
+</div><div topic="Suggestion" level="8"><p><b>3 Suggestion</b></p>
+</div><div topic="Emotion" level="8"><p><b>4 Emotion</b></p>
+</div><div topic="Charm Monster" level="8"><p><b>5 Charm monster</b></p>
+</div><div topic="Geas/Quest" level="8"><p><b>6 Geas/quest</b></p>
+</div><div topic="Insanity" level="8"><p><b>7 Insanity</b></p>
+</div><div topic="Demand" level="8"><p><b>8 Demand</b></p>
+</div><div topic="Dominate Monster" level="8"><p><b>9 Dominate monster</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Community</name>
+    <granted_powers>Use calm emotions as a spell-like ability once per day. Gain a +2 competence bonus on Diplomacy checks.</granted_powers>
+    <spell_1>bless</spell_1>
+    <spell_2>shield other</spell_2>
+    <spell_3>prayer</spell_3>
+    <spell_4>status</spell_4>
+    <spell_5>telepathic bond</spell_5>
+    <spell_6>heroes' feast</spell_6>
+    <spell_7>refuge</spell_7>
+    <spell_8>mass heal</spell_8>
+    <spell_9>miracle</spell_9>
+    <full_text>
+      <div topic="Community Domain" level="2"><p><h2>Community Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Use <i>calm emotions</i> as a spell-like ability once per day. Gain a +2 competence bonus on Diplomacy checks.</p>
+</div><div topic="Community Domain Spells" level="5"><p><h5><b>Community Domain Spells</b></h5></p><div topic="Bless" level="8"><p><b>1 Bless</b></p>
+</div><div topic="Shield Other" level="8"><p><b>2 Shield other</b></p>
+</div><div topic="Prayer" level="8"><p><b>3 Prayer</b></p>
+</div><div topic="Status" level="8"><p><b>4 Status</b></p>
+</div><div topic="Telepathic Bond" level="8"><p><b>5 Telepathic bond</b></p>
+</div><div topic="Heroes' Feast" level="8"><p><b>6 Heroes' feast</b></p>
+</div><div topic="Refuge" level="8"><p><b>7 Refuge</b></p>
+</div><div topic="Mass Heal" level="8"><p><b>8 Mass heal</b></p>
+</div><div topic="Miracle" level="8"><p><b>9 Miracle</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Creation</name>
+    <granted_powers>Cast conjuration (creation) spells at +2 caster level. (Those with access to both the Artifice and Creation domains cast conjuration (creation) spells at +3 caster level.)</granted_powers>
+    <spell_1>create water</spell_1>
+    <spell_2>minor image</spell_2>
+    <spell_3>create food and water</spell_3>
+    <spell_4>minor creation</spell_4>
+    <spell_5>major creation</spell_5>
+    <spell_6>heroes' feast</spell_6>
+    <spell_7>permanent image</spell_7>
+    <spell_8>true creation</spell_8>
+    <spell_9>genesis</spell_9>
+    <full_text>
+      <div topic="Creation Domain" level="2"><p><h2>Creation Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Cast conjuration (creation) spells at +2 caster level. (Those with access to both the Artifice and Creation domains cast conjuration (creation) spells at +3 caster level.)</p>
+</div><div topic="Creation Domain Spells" level="5"><p><h5><b>Creation Domain Spells</b></h5></p><div topic="Create Water" level="8"><p><b>1 Create water</b></p>
+</div><div topic="Minor Image" level="8"><p><b>2 Minor image</b></p>
+</div><div topic="Create Food and Water" level="8"><p><b>3 Create food and water</b></p>
+</div><div topic="Minor Creation" level="8"><p><b>4 Minor creation</b></p>
+</div><div topic="Major Creation" level="8"><p><b>5 Major creation</b></p>
+</div><div topic="Heroes' Feast" level="8"><p><b>6 Heroes' feast</b></p>
+</div><div topic="Permanent Image" level="8"><p><b>7 Permanent image</b></p>
+</div><div topic="True Creation" level="8"><p><b>8 True creation</b></p>
+</div><div topic="Genesis" level="8"><p><b>9 Genesis</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Darkness</name>
+    <granted_powers>Free Blind-Fight feat.</granted_powers>
+    <spell_1>obscuring mist</spell_1>
+    <spell_2>blindness</spell_2>
+    <spell_3>blacklight</spell_3>
+    <spell_4>armor of darkness</spell_4>
+    <spell_5>summon monster V (only summons 1d3 shadows)</spell_5>
+    <spell_6>prying eyes</spell_6>
+    <spell_7>nightmare</spell_7>
+    <spell_8>power word blind</spell_8>
+    <spell_9>power word kill</spell_9>
+    <full_text>
+      <div topic="Darkness Domain" level="2"><p><h2>Darkness Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Free Blind-Fight feat.</p>
+</div><div topic="Darkness Domain Spells" level="5"><p><h5><b>Darkness Domain Spells</b></h5></p><div topic="Obscuring Mist" level="8"><p><b>1 Obscuring mist</b></p>
+</div><div topic="Blindness" level="8"><p><b>2 Blindness</b></p>
+</div><div topic="Blacklight" level="8"><p><b>3 Blacklight</b></p>
+</div><div topic="Armor of Darkness" level="8"><p><b>4 Armor of darkness</b></p>
+</div><div topic="Summon Monster V" level="8"><p><b>5 Summon monster V (only summons 1d3 shadows)</b></p>
+</div><div topic="Prying Eyes" level="8"><p><b>6 Prying eyes</b></p>
+</div><div topic="Nightmare" level="8"><p><b>7 Nightmare</b></p>
+</div><div topic="Power Word, Blind" level="8"><p><b>8 Power word, blind</b></p>
+</div><div topic="Power Word, Kill" level="8"><p><b>9 Power word, kill</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Glory</name>
+    <granted_powers>Turn undead with a +2 bonus on the turning check and +1d6 to the turning damage roll.</granted_powers>
+    <spell_1>disrupt undead</spell_1>
+    <spell_2>bless weapon</spell_2>
+    <spell_3>searing light</spell_3>
+    <spell_4>holy smite</spell_4>
+    <spell_5>holy sword</spell_5>
+    <spell_6>bolt of glory</spell_6>
+    <spell_7>sunbeam</spell_7>
+    <spell_8>crown of glory</spell_8>
+    <spell_9>gate</spell_9>
+    <full_text>
+      <div topic="Glory Domain" level="2"><p><h2>Glory Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Turn undead with a +2 bonus on the turning check and +1d6 to the turning damage roll.</p>
+</div><div topic="Glory Domain Spells" level="5"><p><h5><b>Glory Domain Spells</b></h5></p><div topic="Disrupt Undead" level="8"><p><b>1 Disrupt undead</b></p>
+</div><div topic="Bless Weapon" level="8"><p><b>2 Bless weapon</b></p>
+</div><div topic="Searing Light" level="8"><p><b>3 Searing light</b></p>
+</div><div topic="Holy Smite" level="8"><p><b>4 Holy smite</b></p>
+</div><div topic="Holy Sword" level="8"><p><b>5 Holy sword</b></p>
+</div><div topic="Bolt of Glory" level="8"><p><b>6 Bolt of glory</b></p>
+</div><div topic="Sunbeam" level="8"><p><b>7 Sunbeam</b></p>
+</div><div topic="Crown of Glory" level="8"><p><b>8 Crown of glory</b></p>
+</div><div topic="Gate" level="8"><p><b>9 Gate</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Liberation</name>
+    <granted_powers>The character gains a +2 morale bonus on all saving throws against enchantment spells or effects.</granted_powers>
+    <spell_1>remove fear</spell_1>
+    <spell_2>remove paralysis</spell_2>
+    <spell_3>remove curse</spell_3>
+    <spell_4>freedom of movement</spell_4>
+    <spell_5>break enchantment</spell_5>
+    <spell_6>greater dispel magic</spell_6>
+    <spell_7>refuge</spell_7>
+    <spell_8>mind blank</spell_8>
+    <spell_9>unbinding</spell_9>
+    <full_text>
+      <div topic="Liberation Domain" level="2"><p><h2>Liberation Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> The character gains a +2 morale bonus on all saving throws against enchantment spells or effects.</p>
+</div><div topic="Liberation Domain Spells" level="5"><p><h5><b>Liberation Domain Spells</b></h5></p><div topic="Remove Fear" level="8"><p><b>1 Remove fear</b></p>
+</div><div topic="Remove Paralysis" level="8"><p><b>2 Remove paralysis</b></p>
+</div><div topic="Remove Curse" level="8"><p><b>3 Remove curse</b></p>
+</div><div topic="Freedom of Movement" level="8"><p><b>4 Freedom of movement</b></p>
+</div><div topic="Break Enchantment" level="8"><p><b>5 Break enchantment</b></p>
+</div><div topic="Greater Dispel Magic" level="8"><p><b>6 Greater dispel magic</b></p>
+</div><div topic="Refuge" level="8"><p><b>7 Refuge</b></p>
+</div><div topic="Mind Blank" level="8"><p><b>8 Mind blank</b></p>
+</div><div topic="Unbinding" level="8"><p><b>9 Unbinding</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Madness</name>
+    <granted_powers>The character gains an Insanity score equal to half his or her class level. For spellcasting (determining bonus spells and DCs), the character uses his or her Wisdom score plus his or her Insanity score in place of Wisdom alone.For all other purposes, such as skills and saves, use Wisdom minus Insanity in place of Wisdom.Once per day, the character can see and act with the clarity of true madness. Use the character's Insanity score as a positive rather than a negative modifier on a single roll involving Wisdom. Choose to use this power before the roll is made.</granted_powers>
+    <spell_1>random action</spell_1>
+    <spell_2>touch of madness</spell_2>
+    <spell_3>rage</spell_3>
+    <spell_4>confusion</spell_4>
+    <spell_5>bolts of bedevilment</spell_5>
+    <spell_6>phantasmal killer</spell_6>
+    <spell_7>insanity</spell_7>
+    <spell_8>maddening scream</spell_8>
+    <spell_9>weird</spell_9>
+    <full_text>
+      <div topic="Madness Domain" level="2"><p><h2>Madness Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> The character gains an Insanity score equal to half his or her class level. For spellcasting (determining bonus spells and DCs), the character uses his or her Wisdom score plus his or her Insanity score in place of Wisdom alone.</p><p>For all other purposes, such as skills and saves, use Wisdom minus Insanity in place of Wisdom.</p><p>Once per day, the character can see and act with the clarity of true madness. Use the character's Insanity score as a positive rather than a negative modifier on a single roll involving Wisdom. Choose to use this power before the roll is made.</p>
+</div><div topic="Madness Domain Spells" level="5"><p><h5><b>Madness Domain Spells</b></h5></p><div topic="Random Action" level="8"><p><b>1 Random action</b></p>
+</div><div topic="Touch of Madness" level="8"><p><b>2 Touch of madness</b></p>
+</div><div topic="Rage" level="8"><p><b>3 Rage</b></p>
+</div><div topic="Confusion" level="8"><p><b>4 Confusion</b></p>
+</div><div topic="Bolts of Bedevilment" level="8"><p><b>5 Bolts of bedevilment</b></p>
+</div><div topic="Phantasmal Killer" level="8"><p><b>6 Phantasmal killer</b></p>
+</div><div topic="Insanity" level="8"><p><b>7 Insanity</b></p>
+</div><div topic="Maddening Scream" level="8"><p><b>8 Maddening scream</b></p>
+</div><div topic="Weird" level="8"><p><b>9 Weird</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Nobility</name>
+    <granted_powers>The character has the spell-like ability to inspire allies, giving them a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Allies must be able to hear the character speak for 1 round. Using this ability is a standard action. It lasts a number of rounds equal to the character's Charisma bonus and can be used once per day.</granted_powers>
+    <spell_1>divine favor</spell_1>
+    <spell_2>enthrall</spell_2>
+    <spell_3>magic vestment</spell_3>
+    <spell_4>discern lies</spell_4>
+    <spell_5>greater command</spell_5>
+    <spell_6>geas/quest</spell_6>
+    <spell_7>repulsion</spell_7>
+    <spell_8>demand</spell_8>
+    <spell_9>storm of vengeance</spell_9>
+    <full_text>
+      <div topic="Nobility Domain" level="2"><p><h2>Nobility Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> The character has the spell-like ability to inspire allies, giving them a +2 morale bonus on saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls. Allies must be able to hear the character speak for 1 round. Using this ability is a standard action. It lasts a number of rounds equal to the character's Charisma bonus and can be used once per day.</p>
+</div><div topic="Nobility Domain Spells" level="5"><p><h5><b>Nobility Domain Spells</b></h5></p><div topic="Divine Favor" level="8"><p><b>1 Divine favor</b></p>
+</div><div topic="Enthrall" level="8"><p><b>2 Enthrall</b></p>
+</div><div topic="Magic Vestment" level="8"><p><b>3 Magic vestment</b></p>
+</div><div topic="Discern Lies" level="8"><p><b>4 Discern lies</b></p>
+</div><div topic="Greater Command" level="8"><p><b>5 Greater command</b></p>
+</div><div topic="Geas/Quest" level="8"><p><b>6 Geas/quest</b></p>
+</div><div topic="Repulsion" level="8"><p><b>7 Repulsion</b></p>
+</div><div topic="Demand" level="8"><p><b>8 Demand</b></p>
+</div><div topic="Storm of Vengeance" level="8"><p><b>9 Storm of vengeance</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Repose</name>
+    <granted_powers>The character may use a death touch once per day. The death touch is a spell-like ability that is a death effect. The character must succeed at a melee touch attack against a living creature (using the rules for touch spells). When the character touches, roll 1d6 per his or her cleric level. If the total at least equals the creature's current hit points, it dies.</granted_powers>
+    <spell_1>deathwatch</spell_1>
+    <spell_2>gentle repose</spell_2>
+    <spell_3>speak with dead</spell_3>
+    <spell_4>death ward</spell_4>
+    <spell_5>slay living</spell_5>
+    <spell_6>undeath to death</spell_6>
+    <spell_7>destruction</spell_7>
+    <spell_8>surelife</spell_8>
+    <spell_9>wail of the banshee</spell_9>
+    <full_text>
+      <div topic="Repose Domain" level="2"><p><h2>Repose Domain</h2></p><p>The Repose domain is similar to the Death domain, but is granted by good-aligned deities whose clerics are barred from casting evil spells.</p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> The character may use a <i>death touch</i> once per day. The <i>death touch</i> is a spell-like ability that is a death effect. The character must succeed at a melee touch attack against a living creature (using the rules for touch spells). When the character touches, roll 1d6 per his or her cleric level. If the total at least equals the creature's current hit points, it dies.</p>
+</div><div topic="Repose Domain Spells" level="5"><p><h5><b>Repose Domain Spells</b></h5></p><div topic="Deathwatch" level="8"><p><b>1 Deathwatch</b></p>
+</div><div topic="Gentle Repose" level="8"><p><b>2 Gentle repose</b></p>
+</div><div topic="Speak with Dead" level="8"><p><b>3 Speak with dead</b></p>
+</div><div topic="Death Ward" level="8"><p><b>4 Death ward</b></p>
+</div><div topic="Slay Living" level="8"><p><b>5 Slay living</b></p>
+</div><div topic="Undeath to Death" level="8"><p><b>6 Undeath to death</b></p>
+</div><div topic="Destruction" level="8"><p><b>7 Destruction</b></p>
+</div><div topic="Surelife" level="8"><p><b>8 Surelife</b></p>
+</div><div topic="Wail of the Banshee" level="8"><p><b>9 Wail of the banshee</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Rune</name>
+    <granted_powers>Free Scribe Scroll feat.</granted_powers>
+    <spell_1>erase</spell_1>
+    <spell_2>secret page</spell_2>
+    <spell_3>glyph of warding</spell_3>
+    <spell_4>explosive runes</spell_4>
+    <spell_5>lesser planar binding</spell_5>
+    <spell_6>greater glyph of warding</spell_6>
+    <spell_7>instant summons</spell_7>
+    <spell_8>symbol</spell_8>
+    <spell_9>teleportation circle</spell_9>
+    <full_text>
+      <div topic="Rune Domain" level="2"><p><h2>Rune Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Free Scribe Scroll feat.</p>
+</div><div topic="Rune Domain Spells" level="5"><p><h5><b>Rune Domain Spells</b></h5></p><div topic="Erase" level="8"><p><b>1 Erase</b></p>
+</div><div topic="Secret Page" level="8"><p><b>2 Secret page</b></p>
+</div><div topic="Glyph of Warding" level="8"><p><b>3 Glyph of warding</b></p>
+</div><div topic="Explosive Runes" level="8"><p><b>4 Explosive runes</b></p>
+</div><div topic="Lesser Planar Binding" level="8"><p><b>5 Lesser planar binding</b></p>
+</div><div topic="Greater Glyph of Warding" level="8"><p><b>6 Greater glyph of warding</b></p>
+</div><div topic="Instant Summons" level="8"><p><b>7 Instant summons</b></p>
+</div><div topic="Symbol" level="8"><p><b>8 Symbol</b></p>
+</div><div topic="Teleportation Circle" level="8"><p><b>9 Teleportation circle</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Scalykind</name>
+    <granted_powers>Rebuke or command animals (reptilian creatures and snakes only) as an evil cleric rebukes or commands undead.Use this ability a total number of times per day equal to 3 + Charisma modifier.</granted_powers>
+    <spell_1>magic fang</spell_1>
+    <spell_2>animal trance</spell_2>
+    <spell_3>greater magic fang</spell_3>
+    <spell_4>poison</spell_4>
+    <spell_5>animal growth</spell_5>
+    <spell_6>eyebite</spell_6>
+    <spell_7>creeping doom (composed of tiny snakes)</spell_7>
+    <spell_8>animal shapes</spell_8>
+    <spell_9>shapechange</spell_9>
+    <full_text>
+      <div topic="Scalykind Domain" level="2"><p><h2>Scalykind Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Rebuke or command animals (reptilian creatures and snakes only) as an evil cleric rebukes or commands undead.</p><p>Use this ability a total number of times per day equal to 3 + Charisma modifier.</p>
+</div><div topic="Scalykind Domain Spells" level="5"><p><h5><b>Scalykind Domain Spells</b></h5></p><div topic="Magic Fang" level="8"><p><b>1 Magic fang</b></p>
+</div><div topic="Animal Trance" level="8"><p><b>2 Animal trance</b></p>
+</div><div topic="Greater Magic Fang" level="8"><p><b>3 Greater magic fang</b></p>
+</div><div topic="Poison" level="8"><p><b>4 Poison</b></p>
+</div><div topic="Animal Growth" level="8"><p><b>5 Animal growth</b></p>
+</div><div topic="Eyebite" level="8"><p><b>6 Eyebite</b></p>
+</div><div topic="Creeping Doom" level="8"><p><b>7 Creeping doom (composed of tiny snakes)</b></p>
+</div><div topic="Animal Shapes" level="8"><p><b>8 Animal shapes</b></p>
+</div><div topic="Shapechange" level="8"><p><b>9 Shapechange</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Weather</name>
+    <granted_powers>Survival is a class skill.</granted_powers>
+    <spell_1>obscuring mist</spell_1>
+    <spell_2>fog cloud</spell_2>
+    <spell_3>call lightning</spell_3>
+    <spell_4>sleet storm</spell_4>
+    <spell_5>ice storm</spell_5>
+    <spell_6>control winds</spell_6>
+    <spell_7>control weather</spell_7>
+    <spell_8>whirlwind</spell_8>
+    <spell_9>storm of vengeance</spell_9>
+    <full_text>
+      <div topic="Weather Domain" level="2"><p><h2>Weather Domain</h2></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Survival is a class skill.</p>
+</div><div topic="Weather Domain Spells" level="5"><p><h5><b>Weather Domain Spells</b></h5></p><div topic="Obscuring Mist" level="8"><p><b>1 Obscuring mist</b></p>
+</div><div topic="Fog Cloud" level="8"><p><b>2 Fog cloud</b></p>
+</div><div topic="Call Lightning" level="8"><p><b>3 Call lightning</b></p>
+</div><div topic="Sleet Storm" level="8"><p><b>4 Sleet storm</b></p>
+</div><div topic="Ice Storm" level="8"><p><b>5 Ice storm</b></p>
+</div><div topic="Control Winds" level="8"><p><b>6 Control winds</b></p>
+</div><div topic="Control Weather" level="8"><p><b>7 Control weather</b></p>
+</div><div topic="Whirlwind" level="8"><p><b>8 Whirlwind</b></p>
+</div><div topic="Storm of Vengeance" level="8"><p><b>9 Storm of vengeance</b></p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 DivineDomainsandSpells</reference>
+  </domain>
+  <domain>
+    <name>Mind</name>
+    <granted_powers>Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.</granted_powers>
+    <spell_1>comprehend languages</spell_1>
+    <spell_2>detect thoughts</spell_2>
+    <spell_3>lesser telepathic bond</spell_3>
+    <spell_4>discern lies</spell_4>
+    <spell_5>telepathic bond</spell_5>
+    <spell_6>probe thoughts</spell_6>
+    <spell_7>brain spider</spell_7>
+    <spell_8>mind blank</spell_8>
+    <spell_9>weird</spell_9>
+    <full_text>
+      <div topic="Mind Domain" level="3"><p><h3>Mind Domain</h3></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Gain a +2 bonus on Bluff, Diplomacy, and Sense Motive checks. Gain a +2 bonus on Will saves against enchantment spells and effects.</p>
+</div><div topic="Mind Domain Spells" level="5"><p><h5><b>Mind Domain Spells</b></h5></p><div topic="Comprehend Languages" level="8"><p><b>1 Comprehend Languages:</b> You understand all spoken and written languages.</p>
+</div><div topic="Detect Thoughts" level="8"><p><b>2 Detect Thoughts:</b> Allows 'listening' to surface thoughts.</p>
+</div><div topic="Telepathic Bond, Lesser" level="8"><p><b>3 Telepathic Bond, Lesser:</b> Link with subject within 30 ft. for 10 min./level.</p>
+</div><div topic="Discern Lies" level="8"><p><b>4 Discern Lies:</b> Reveals deliberate falsehoods.</p>
+</div><div topic="Telepathic Bond" level="8"><p><b>5 Telepathic Bond:</b> Link lets allies communicate.</p>
+</div><div topic="Probe Thoughts" level="8"><p><b>6 Probe Thoughts:</b> Read subject's memories, one question/round.</p>
+</div><div topic="Brain Spider" level="8"><p><b>7 Brain Spider:</b> Eavesdrop on thoughts of up to eight other creatures.</p>
+</div><div topic="Mind Blank" level="8"><p><b>8 Mind Blank:</b> Subject is immune to mental/emotional magic and scrying.</p>
+</div><div topic="Weird" level="8"><p><b>9 Weird:</b> Fearful illusion affects all within 30 ft., either killing or dealing 3d6 damage.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 PsionicSpells</reference>
+  </domain>
+  <domain>
+    <name>Air</name>
+    <granted_powers>Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</granted_powers>
+    <spell_1>obscuring mist</spell_1>
+    <spell_2>wind wall</spell_2>
+    <spell_3>gaseous form</spell_3>
+    <spell_4>air walk</spell_4>
+    <spell_5>control winds</spell_5>
+    <spell_6>chain lightning</spell_6>
+    <spell_7>control weather</spell_7>
+    <spell_8>whirlwind</spell_8>
+    <spell_9>elemental swarm</spell_9>
+    <full_text>
+      <div topic="Air Domain" level="4"><p><h4>Air Domain</h4></p><div topic="Granted Powers" level="8"><p><b>Granted Powers:</b> Turn or destroy earth creatures as a good cleric turns undead. Rebuke, command, or bolster air creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</p>
+</div><div topic="Air Domain Spells" level="5"><p><h5><b>Air Domain Spells</b></h5></p><div topic="Obscuring Mist" level="8"><p><b>1 Obscuring Mist:</b> Fog surrounds you.</p>
+</div><div topic="Wind Wall" level="8"><p><b>2 Wind Wall:</b> Deflects arrows, smaller creatures, and gases.</p>
+</div><div topic="Gaseous Form" level="8"><p><b>3 Gaseous Form:</b> Subject becomes insubstantial and can fly slowly.</p>
+</div><div topic="Air Walk" level="8"><p><b>4 Air Walk:</b> Subject treads on air as if solid (climb at 45-degree angle).</p>
+</div><div topic="Control Winds" level="8"><p><b>5 Control Winds:</b> Change wind direction and speed.</p>
+</div><div topic="Chain Lightning" level="8"><p><b>6 Chain Lightning:</b> 1d6/level damage; 1 secondary bolt/level each deals half damage.</p>
+</div><div topic="Control Weather" level="8"><p><b>7 Control Weather:</b> Changes weather in local area.</p>
+</div><div topic="Whirlwind" level="8"><p><b>8 Whirlwind:</b> Cyclone deals damage and can pick up creatures.</p>
+</div><div topic="Elemental Swarm" level="8"><p><b>9 Elemental Swarm*:</b> Summons multiple elementals.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Animal</name>
+    <granted_powers>You can use speak with animals once per day as a spell-like ability.Add Knowledge (nature) to your list of cleric class skills.</granted_powers>
+    <spell_1>calm animals</spell_1>
+    <spell_2>hold animal</spell_2>
+    <spell_3>dominate animal</spell_3>
+    <spell_4>summon nature's ally IV</spell_4>
+    <spell_5>commune with nature</spell_5>
+    <spell_6>antilife shell</spell_6>
+    <spell_7>animal shapes</spell_7>
+    <spell_8>summon nature's ally VIII</spell_8>
+    <spell_9>shapechange</spell_9>
+    <full_text>
+      <div topic="Animal Domain" level="4"><p><h4>Animal Domain</h4></p><div topic="Granted Powers" level="8"><p><b>Granted Powers:</b> You can use <i>speak with animals</i> once per day as a spell-like ability.</p><p>Add Knowledge (nature) to your list of cleric class skills.</p>
+</div><div topic="Animal Domain Spells" level="5"><p><h5><b>Animal Domain Spells</b></h5></p><div topic="Calm Animals" level="8"><p><b>1 Calm Animals:</b> Calms (2d4 + level) HD of animals.</p>
+</div><div topic="Hold Animal" level="8"><p><b>2 Hold Animal:</b> Paralyzes one animal for 1 round/level.</p>
+</div><div topic="Dominate Animal" level="8"><p><b>3 Dominate Animal:</b> Subject animal obeys silent mental commands.</p>
+</div><div topic="Summon Nature's Ally IV" level="8"><p><b>4 Summon Nature's Ally IV*:</b> Calls creature to fight.</p>
+</div><div topic="Commune with Nature" level="8"><p><b>5 Commune with Nature:</b> Learn about terrain for 1 mile/level.</p>
+</div><div topic="Antilife Shell" level="8"><p><b>6 Antilife Shell:</b> 10-ft. field hedges out living creatures.</p>
+</div><div topic="Animal Shapes" level="8"><p><b>7 Animal Shapes:</b> One ally/level polymorphs into chosen animal.</p>
+</div><div topic="Summon Nature's Ally VIII" level="8"><p><b>8 Summon Nature's Ally VIII*:</b> Calls creature to fight.</p>
+</div><div topic="Shapechange" level="8"><p><b>9 Shapechange:</b> Transforms you into any creature, and change forms once per round.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Chaos</name>
+    <granted_powers>You cast chaos spells at +1 caster level.</granted_powers>
+    <spell_1>protection from law</spell_1>
+    <spell_2>shatter</spell_2>
+    <spell_3>magic circle against law</spell_3>
+    <spell_4>chaos hammer</spell_4>
+    <spell_5>dispel law</spell_5>
+    <spell_6>animate objects</spell_6>
+    <spell_7>word of chaos</spell_7>
+    <spell_8>cloak of chaos</spell_8>
+    <spell_9>summon monster IX</spell_9>
+    <full_text>
+      <div topic="Chaos Domain" level="4"><p><h4>Chaos Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You cast chaos spells at +1 caster level.</p>
+</div><div topic="Chaos Domain Spells" level="5"><p><h5><b>Chaos Domain Spells</b></h5></p><div topic="Protection from Law" level="8"><p><b>1 Protection from Law:</b> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</p>
+</div><div topic="Shatter" level="8"><p><b>2 Shatter:</b> Sonic vibration damages objects or crystalline creatures.</p>
+</div><div topic="Magic Circle Against Law" level="8"><p><b>3 Magic Circle against Law:</b> As <i>protection</i> spells, but 10-ft. radius and 10 min./level.</p>
+</div><div topic="Chaos Hammer" level="8"><p><b>4 Chaos Hammer:</b> Damages and staggers lawful creatures.</p>
+</div><div topic="Dispel Law" level="8"><p><b>5 Dispel Law:</b> +4 bonus against attacks by lawful creatures.</p>
+</div><div topic="Animate Objects" level="8"><p><b>6 Animate Objects:</b> Objects attack your foes.</p>
+</div><div topic="Word of Chaos" level="8"><p><b>7 Word of Chaos:</b> Kills, <i>confuses</i>,  stuns, or deafens nonchaotic subjects.</p>
+</div><div topic="Cloak of Chaos" level="8"><p><b>8 Cloak of Chaos:</b> +4 to AC, +4 resistance, spell resistance 25 against lawful spells.</p>
+</div><div topic="Summon Monster IX" level="8"><p><b>9 Summon Monster IX*:</b> Calls extraplanar creature to fight for you.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Death</name>
+    <granted_powers>You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).</granted_powers>
+    <spell_1>cause fear</spell_1>
+    <spell_2>death knell</spell_2>
+    <spell_3>animate dead</spell_3>
+    <spell_4>death ward</spell_4>
+    <spell_5>slay living</spell_5>
+    <spell_6>create undead</spell_6>
+    <spell_7>destruction</spell_7>
+    <spell_8>create greater undead</spell_8>
+    <spell_9>wail of the banshee</spell_9>
+    <full_text>
+      <div topic="Death Domain" level="4"><p><h4>Death Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).</p>
+</div><div topic="Death Domain Spells" level="5"><p><h5><b>Death Domain Spells</b></h5></p><div topic="Cause Fear" level="8"><p><b>1 Cause Fear:</b> One creature of 5 HD or less flees for 1d4 rounds.</p>
+</div><div topic="Death Knell" level="8"><p><b>2 Death Knell:</b> Kill dying creature and gain 1d8 temporary hp, +2 to Str, and +1 caster level.</p>
+</div><div topic="Animate Dead" level="8"><p><b>3 Animate Dead:</b> Creates undead skeletons and zombies.</p>
+</div><div topic="Death Ward" level="8"><p><b>4 Death Ward:</b> Grants immunity to death spells and negative energy effects.</p>
+</div><div topic="Slay Living" level="8"><p><b>5 Slay Living:</b> Touch attack kills subject.</p>
+</div><div topic="Create Undead" level="8"><p><b>6 Create Undead:</b> Create ghouls, ghasts, mummies, or mohrgs.</p>
+</div><div topic="Destruction" level="8"><p><b>7 Destruction:</b> Kills subject and destroys remains.</p>
+</div><div topic="Create Greater Undead" level="8"><p><b>8 Create Greater Undead:</b> Create shadows, wraiths, spectres, r devourers.</p>
+</div><div topic="Wail of the Banshee" level="8"><p><b>9 Wail of the Banshee:</b> Kills one creature/level.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Destruction</name>
+    <granted_powers>You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.</granted_powers>
+    <spell_1>inflict light wounds</spell_1>
+    <spell_2>shatter</spell_2>
+    <spell_3>contagion</spell_3>
+    <spell_4>inflict critical wounds</spell_4>
+    <spell_5>mass inflict light wounds</spell_5>
+    <spell_6>harm</spell_6>
+    <spell_7>disintegrate</spell_7>
+    <spell_8>earthquake</spell_8>
+    <spell_9>implosion</spell_9>
+    <full_text>
+      <div topic="Destruction Domain" level="4"><p><h4>Destruction Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You gain the smite power, the supernatural ability to make a single melee attack with a +4 bonus on attack rolls and a bonus on damage rolls equal to your cleric level (if you hit). You must declare the smite before making the attack. This ability is usable once per day.</p>
+</div><div topic="Destruction Domain Spells" level="5"><p><h5><b>Destruction Domain Spells</b></h5></p><div topic="Inflict Light Wounds" level="8"><p><b>1 Inflict Light Wounds:</b> Touch attack, 1d8 damage +1/level (max +5).</p>
+</div><div topic="Shatter" level="8"><p><b>2 Shatter:</b> Sonic vibration damages objects or crystalline creatures.</p>
+</div><div topic="Contagion" level="8"><p><b>3 Contagion:</b> Infects subject with chosen disease.</p>
+</div><div topic="Inflict Critical Wounds" level="8"><p><b>4 Inflict Critical Wounds:</b> Touch attack, 4d8 damage +1/level (max +20).</p>
+</div><div topic="Inflict Light Wounds, Mass" level="8"><p><b>5 Inflict Light Wounds, Mass:</b> Deals 1d8 damage +1/level to any creatures.</p>
+</div><div topic="Harm" level="8"><p>6 <b>Harm:</b> Deals 10 points/level damage to target.</p>
+</div><div topic="Disintegrate" level="8"><p><b>7 Disintegrate:</b> Makes one creature or object vanish.</p>
+</div><div topic="Earthquake" level="8"><p><b>8 Earthquake:</b> Intense tremor shakes 80-ft. -radius.</p>
+</div><div topic="Implosion" level="8"><p><b>9 Implosion:</b> Kills one creature/round.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Earth</name>
+    <granted_powers>Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</granted_powers>
+    <spell_1>magic stone</spell_1>
+    <spell_2>soften earth and stone</spell_2>
+    <spell_3>stone shape</spell_3>
+    <spell_4>spike stones</spell_4>
+    <spell_5>wall of stone</spell_5>
+    <spell_6>stoneskin</spell_6>
+    <spell_7>earthquake</spell_7>
+    <spell_8>iron body</spell_8>
+    <spell_9>elemental swarm</spell_9>
+    <full_text>
+      <div topic="Earth Domain" level="4"><p><h4>Earth Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Turn or destroy air creatures as a good cleric turns undead. Rebuke, command, or bolster earth creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</p>
+</div><div topic="Earth Domain Spells" level="5"><p><h5><b>Earth Domain Spells</b></h5></p><div topic="Magic Stone" level="8"><p><b>1 Magic Stone:</b> Three stones become +1 projectiles, 1d6 +1 damage.</p>
+</div><div topic="Soften Earth and Stone" level="8"><p><b>2 Soften Earth and Stone:</b> Turns stone to clay or dirt to sand or mud.</p>
+</div><div topic="Stone Shape" level="8"><p><b>3 Stone Shape:</b> Sculpts stone into any shape.</p>
+</div><div topic="Spike Stones" level="8"><p><b>4 Spike Stones:</b> Creatures in area take 1d8 damage, may be <i>lowed</i>.</p>
+</div><div topic="Wall of Stone" level="8"><p><b>5 Wall of Stone:</b> Creates a stone wall that can be shaped.</p>
+</div><div topic="Stoneskin" level="8"><p><b>6 Stoneskin:</b> Ignore 10 points of damage per attack.</p>
+</div><div topic="Earthquake" level="8"><p><b>7 Earthquake:</b> Intense tremor shakes 80-ft. -radius.</p>
+</div><div topic="Iron Body" level="8"><p><b>8 Iron Body:</b> Your body becomes living iron.</p>
+</div><div topic="Elemental Swarm" level="8"><p><b>9 Elemental Swarm*:</b> Summons multiple elementals.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Evil</name>
+    <granted_powers>You cast evil spells at +1 caster level.</granted_powers>
+    <spell_1>protection from good</spell_1>
+    <spell_2>desecrate</spell_2>
+    <spell_3>magic circle against good</spell_3>
+    <spell_4>unholy blight</spell_4>
+    <spell_5>dispel good</spell_5>
+    <spell_6>create undead</spell_6>
+    <spell_7>blasphemy</spell_7>
+    <spell_8>unholy aura</spell_8>
+    <spell_9>summon monster IX</spell_9>
+    <full_text>
+      <div topic="Evil Domain" level="4"><p><h4>Evil Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You cast evil spells at +1 caster level.</p>
+</div><div topic="Evil Domain Spells" level="5"><p><h5><b>Evil Domain Spells</b></h5></p><div topic="Protection from Good" level="8"><p><b>1 Protection from Good:</b> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</p>
+</div><div topic="Desecrate" level="8"><p><b>2 Desecrate:</b> Fills area with negative energy, making undead stronger.</p>
+</div><div topic="Magic Circle Against Good" level="8"><p><b>3 Magic Circle against Good:</b> As <i>protection</i> spells, but 10-ft. radius and 10 min./level.</p>
+</div><div topic="Unholy Blight" level="8"><p><b>4 Unholy Blight:</b> Damages and sickens good creatures.</p>
+</div><div topic="Dispel Good" level="8"><p><b>5 Dispel Good:</b> +4 bonus against attacks by good creatures.</p>
+</div><div topic="Create Undead" level="8"><p><b>6 Create Undead:</b> Create ghouls, ghasts, mummies, or mohrgs.</p>
+</div><div topic="Blasphemy" level="8"><p><b>7 Blasphemy:</b> Kills, paralyzes, weakens, or dazes nonevil subjects.</p>
+</div><div topic="Unholy Aura" level="8"><p><b>8 Unholy Aura:</b> +4 to AC, +4 resistance, spell resistance 25 against good spells.</p>
+</div><div topic="Summon Monster IX" level="8"><p><b>9 Summon Monster IX*:</b> Calls extraplanar creature to fight for you.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Fire</name>
+    <granted_powers>Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</granted_powers>
+    <spell_1>burning hands</spell_1>
+    <spell_2>produce flame</spell_2>
+    <spell_3>resist energy</spell_3>
+    <spell_4>wall of fire</spell_4>
+    <spell_5>fire shield</spell_5>
+    <spell_6>fire seeds</spell_6>
+    <spell_7>fire storm</spell_7>
+    <spell_8>incendiary cloud</spell_8>
+    <spell_9>elemental swarm</spell_9>
+    <full_text>
+      <div topic="Fire Domain" level="4"><p><h4>Fire Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Turn or destroy water creatures as a good cleric turns undead. Rebuke, command, or bolster fire creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</p>
+</div><div topic="Fire Domain Spells" level="5"><p><h5><b>Fire Domain Spells</b></h5></p><div topic="Burning Hands" level="8"><p><b>1 Burning Hands:</b> 1d4/level fire damage (max 5d4).</p>
+</div><div topic="Produce Flame" level="8"><p><b>2 Produce Flame:</b> 1d6 damage +1/level, touch or thrown.</p>
+</div><div topic="Resist Energy" level="8"><p><b>3 Resist Energy*:</b> Ignores 10 (or more) points of damage/attack from specified energy type.</p>
+</div><div topic="Wall of Fire" level="8"><p><b>4 Wall of Fire:</b> Deals 2d4 fire damage out to 10 ft. and 1d4 out to 20 ft. Passing through wall deals 2d6 damage +1/level.</p>
+</div><div topic="Fire Shield" level="8"><p><b>5 Fire Shield:</b> Creatures attacking you take fire damage; you're protected from heat or cold.</p>
+</div><div topic="Fire Seeds" level="8"><p><b>6 Fire Seeds:</b> Acorns and berries become grenades and bombs.</p>
+</div><div topic="Fire Storm" level="8"><p><b>7 Fire Storm:</b> Deals 1d6/level fire damage.</p>
+</div><div topic="Incendiary Cloud" level="8"><p><b>8 Incendiary Cloud:</b> Cloud deals 4d6 fire damage/round.</p>
+</div><div topic="Elemental Swarm" level="8"><p><b>9 Elemental Swarm**:</b> Summons multiple elementals.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Good</name>
+    <granted_powers>You cast good spells at +1 caster level.</granted_powers>
+    <spell_1>protection from evil</spell_1>
+    <spell_2>aid</spell_2>
+    <spell_3>magic circle against evil</spell_3>
+    <spell_4>holy smite</spell_4>
+    <spell_5>dispel evil</spell_5>
+    <spell_6>blade barrier</spell_6>
+    <spell_7>holy word</spell_7>
+    <spell_8>holy aura</spell_8>
+    <spell_9>summon monster IX</spell_9>
+    <full_text>
+      <div topic="Good Domain" level="4"><p><h4>Good Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You cast good spells at +1 caster level.</p>
+</div><div topic="Good Domain Spells" level="5"><p><h5><b>Good Domain Spells</b></h5></p><div topic="Protection from Evil" level="8"><p><b>1 Protection from Evil:</b> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</p>
+</div><div topic="Aid" level="8"><p><b>2 Aid:</b> +1 on attack rolls, +1 on saves against fear, 1d8 temporary hp +1/level (max +10).</p>
+</div><div topic="Magic Circle Against Evil" level="8"><p><b>3 Magic Circle against Evil:</b> As <i>protection</i> spells, but 10-ft. radius and 10 min./level.</p>
+</div><div topic="Holy Smite" level="8"><p><b>4 Holy Smite:</b> Damages and blinds evil creatures.</p>
+</div><div topic="Dispel Evil" level="8"><p><b>5 Dispel Evil:</b> +4 bonus against attacks by evil creatures.</p>
+</div><div topic="Blade Barrier" level="8"><p><b>6 Blade Barrier:</b> Wall of blades deals 1d6/level damage.</p>
+</div><div topic="Holy Word" level="8"><p><b>7 Holy Word:</b> Kills, paralyzes, slows, or deafens nongood subjects.</p>
+</div><div topic="Holy Aura" level="8"><p><b>8 Holy Aura:</b> +4 to AC, +4 resistance, and spell resistance 25 against evil spells.</p>
+</div><div topic="Summon Monster IX" level="8"><p><b>9 Summon Monster IX*:</b> Calls extraplanar creature to fight for you.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Healing</name>
+    <granted_powers>You cast healing spells at +1 caster level.</granted_powers>
+    <spell_1>cure light wounds</spell_1>
+    <spell_2>cure moderate wounds</spell_2>
+    <spell_3>cure serious wounds</spell_3>
+    <spell_4>cure critical wounds</spell_4>
+    <spell_5>mass cure light wounds</spell_5>
+    <spell_6>heal</spell_6>
+    <spell_7>regenerate</spell_7>
+    <spell_8>mass cure critical wounds</spell_8>
+    <spell_9>mass heal</spell_9>
+    <full_text>
+      <div topic="Healing Domain" level="4"><p><h4>Healing Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You cast healing spells at +1 caster level.</p>
+</div><div topic="Healing Domain Spells" level="5"><p><h5><b>Healing Domain Spells</b></h5></p><div topic="Cure Light Wounds" level="8"><p><b>1 Cure Light Wounds:</b> Cures 1d8 damage +1/level (max +5).</p>
+</div><div topic="Cure Moderate Wounds" level="8"><p><b>2 Cure Moderate Wounds:</b> Cures 2d8 damage +1/level (max +10).</p>
+</div><div topic="Cure Serious Wounds" level="8"><p><b>3 Cure Serious Wounds:</b> Cures 3d8 damage +1/level (max +15).</p>
+</div><div topic="Cure Critical Wounds" level="8"><p><b>4 Cure Critical Wounds:</b> Cures 4d8 damage +1/level (max +20).</p>
+</div><div topic="Cure Light Wounds, Mass" level="8"><p><b>5 Cure Light Wounds, Mass:</b> Cures 1d8 damage +1/level (max +25) for many creatures.</p>
+</div><div topic="Heal" level="8"><p><b>6 Heal:</b> Cures 10 points/level of damage, all diseases and mental conditions.</p>
+</div><div topic="Regenerate" level="8"><p><b>7 Regenerate:</b> Subject's severed limbs grow back, cures 4d8 damage +1/level (max +35).</p>
+</div><div topic="Cure Critical Wounds, Mass" level="8"><p><b>8 Cure Critical Wounds, Mass:</b> Cures 4d8 damage +1/level (max +40) for many creatures.</p>
+</div><div topic="Heal, Mass" level="8"><p><b>9 Heal, Mass:</b> As <i>heal</i>, but with several subjects.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Knowledge</name>
+    <granted_powers>Add all Knowledge skills to your list of cleric class skills.You cast divination spells at +1 caster level.</granted_powers>
+    <spell_1>detect secret doors</spell_1>
+    <spell_2>detect thoughts</spell_2>
+    <spell_3>clairaudience/clairvoyance</spell_3>
+    <spell_4>divination</spell_4>
+    <spell_5>true seeing</spell_5>
+    <spell_6>find the path</spell_6>
+    <spell_7>legend lore</spell_7>
+    <spell_8>discern location</spell_8>
+    <spell_9>foresight</spell_9>
+    <full_text>
+      <div topic="Knowledge Domain" level="4"><p><h4>Knowledge Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Add all Knowledge skills to your list of cleric class skills.</p><p>You cast divination spells at +1 caster level.</p>
+</div><div topic="Knowledge Domain Spells" level="5"><p><h5><b>Knowledge Domain Spells</b></h5></p><div topic="Detect Secret Doors" level="8"><p><b>1 Detect Secret Doors:</b> Reveals hidden doors within 60 ft.</p>
+</div><div topic="Detect Thoughts" level="8"><p><b>2 Detect Thoughts:</b> Allows 'listening' to surface thoughts.</p>
+</div><div topic="Clairaudience/Clairvoyance" level="8"><p><b>3 Clairaudience/Clairvoyance:</b> Hear or see at a distance for 1 min./level.</p>
+</div><div topic="Divination" level="8"><p><b>4 Divination:</b> Provides useful advice for specific proposed actions.</p>
+</div><div topic="True Seeing" level="8"><p><b>5 True Seeing:</b> Lets you see all things as they really are.</p>
+</div><div topic="Find the Path" level="8"><p><b>6 Find the Path:</b> Shows most direct way to a location.</p>
+</div><div topic="Legend Lore" level="8"><p><b>7 Legend Lore:</b> Lets you learn tales about a person, place, or thing.</p>
+</div><div topic="Discern Location" level="8"><p><b>8 Discern Location:</b> Reveals exact location of creature or object.</p>
+</div><div topic="Foresight" level="8"><p><b>9 Foresight:</b> 'Sixth sense' warns of impending danger.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Law</name>
+    <granted_powers>You cast law spells at +1 caster level.</granted_powers>
+    <spell_1>protection from chaos</spell_1>
+    <spell_2>calm emotions</spell_2>
+    <spell_3>magic circle against chaos</spell_3>
+    <spell_4>order's wrath</spell_4>
+    <spell_5>dispel chaos</spell_5>
+    <spell_6>hold monster</spell_6>
+    <spell_7>dictum</spell_7>
+    <spell_8>shield of law</spell_8>
+    <spell_9>summon monster IX</spell_9>
+    <full_text>
+      <div topic="Law Domain" level="4"><p><h4>Law Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You cast law spells at +1 caster level.</p>
+</div><div topic="Law Domain Spells" level="5"><p><h5><b>Law Domain Spells</b></h5></p><div topic="Protection from Chaos" level="8"><p><b>1 Protection from Chaos:</b> +2 to AC and saves, counter mind control, hedge out elementals and outsiders.</p>
+</div><div topic="Calm Emotions" level="8"><p><b>2 Calm Emotions:</b> Calms creatures, negating emotion effects.</p>
+</div><div topic="Magic Circle Against Chaos" level="8"><p><b>3 Magic Circle against Chaos:</b> As <i>protection</i> spells, but 10-ft. radius and 10 min./level.</p>
+</div><div topic="Order's Wrath" level="8"><p><b>4 Order's Wrath:</b> Damages and dazes chaotic creatures.</p>
+</div><div topic="Dispel Chaos" level="8"><p><b>5 Dispel Chaos:</b> +4 bonus against attacks by chaotic creatures.</p>
+</div><div topic="Hold Monster" level="8"><p><b>6 Hold Monster:</b> As <i>hold person</i>, but any creature.</p>
+</div><div topic="Dictum" level="8"><p><b>7 Dictum:</b> Kills, paralyzes, slows, or deafens nonlawful subjects.</p>
+</div><div topic="Shield of Law" level="8"><p><b>8 Shield of Law:</b> +4 to AC, +4 resistance, and spell resistance 25 against chaotic spells.</p>
+</div><div topic="Summon Monster IX" level="8"><p><b>9 Summon Monster IX*:</b> Calls extraplanar creature to fight for you.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Luck</name>
+    <granted_powers>You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the DM declares whether the roll results in success or failure. You must take the result of the reroll, even if it's worse than the original roll.</granted_powers>
+    <spell_1>entropic shield</spell_1>
+    <spell_2>aid</spell_2>
+    <spell_3>protection from energy</spell_3>
+    <spell_4>freedom of movement</spell_4>
+    <spell_5>break enchantment</spell_5>
+    <spell_6>mislead</spell_6>
+    <spell_7>spell turning</spell_7>
+    <spell_8>moment of prescience</spell_8>
+    <spell_9>miracle</spell_9>
+    <full_text>
+      <div topic="Luck Domain" level="4"><p><h4>Luck Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You gain the power of good fortune, which is usable once per day. This extraordinary ability allows you to reroll one roll that you have just made before the DM declares whether the roll results in success or failure. You must take the result of the reroll, even if it's worse than the original roll.</p>
+</div><div topic="Luck Domain Spells" level="5"><p><h5><b>Luck Domain Spells</b></h5></p><div topic="Entropic Shield" level="8"><p><b>1 Entropic Shield:</b> Ranged attacks against you have 20% miss chance.</p>
+</div><div topic="Aid" level="8"><p><b>2 Aid:</b> +1 on attack rolls, +1 against fear, 1d8 temporary hp +1/level (max +10).</p>
+</div><div topic="Protection from Energy" level="8"><p><b>3 Protection from Energy:</b> Absorb 12 points/level of damage from one kind of energy.</p>
+</div><div topic="Freedom of Movement" level="8"><p><b>4 Freedom of Movement:</b> Subject moves normally despite impediments.</p>
+</div><div topic="Break Enchantment" level="8"><p><b>5 Break Enchantment:</b> Frees subjects from enchantments, alterations, curses, and petrification.</p>
+</div><div topic="Mislead" level="8"><p><b>6 Mislead:</b> Turns you invisible and creates illusory double.</p>
+</div><div topic="Spell Turning" level="8"><p><b>7 Spell Turning:</b> Reflect 1d4+6 spell levels back at caster.</p>
+</div><div topic="Moment of Prescience" level="8"><p><b>8 Moment of Prescience:</b> You gain insight bonus on single attack roll, check, or save.</p>
+</div><div topic="Miracle" level="8"><p><b>9 Miracle:</b> Requests a deity's intercession.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Magic</name>
+    <granted_powers>Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.</granted_powers>
+    <spell_1>magic aura</spell_1>
+    <spell_2>identify</spell_2>
+    <spell_3>dispel magic</spell_3>
+    <spell_4>imbue with spell ability</spell_4>
+    <spell_5>spell resistance</spell_5>
+    <spell_6>antimagic field</spell_6>
+    <spell_7>spell turning</spell_7>
+    <spell_8>protection from spells</spell_8>
+    <spell_9>mage's disjunction</spell_9>
+    <full_text>
+      <div topic="Magic Domain" level="4"><p><h4>Magic Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Use scrolls, wands, and other devices with spell completion or spell trigger activation as a wizard of one-half your cleric level (at least 1st level). For the purpose of using a scroll or other magic device, if you are also a wizard, actual wizard levels and these effective wizard levels stack.</p>
+</div><div topic="Magic Domain Spells" level="5"><p><h5><b>Magic Domain Spells</b></h5></p><div topic="Magic Aura" level="8"><p><b>1 Magic Aura:</b> Alters object's magic aura.</p>
+</div><div topic="Identify" level="8"><p><b>2 Identify:</b> Determines properties of magic item.</p>
+</div><div topic="Dispel Magic" level="8"><p><b>3 Dispel Magic:</b> Cancels magical spells and effects.</p>
+</div><div topic="Imbue with Spell Ability" level="8"><p><b>4 Imbue with Spell Ability:</b> Transfer spells to subject.</p>
+</div><div topic="Spell Resistance" level="8"><p><b>5 Spell Resistance:</b> Subject gains spell resistance 12 + level.</p>
+</div><div topic="Antimagic Field" level="8"><p><b>6 Antimagic Field:</b> Negates magic within 10 ft.</p>
+</div><div topic="Spell Turning" level="8"><p><b>7 Spell Turning:</b> Reflect 1d4+6 spell levels back at caster.</p>
+</div><div topic="Protection from Spells" level="8"><p><b>8 Protection from Spells:</b> Confers +8 resistance bonus.</p>
+</div><div topic="Mage's Disjunction" level="8"><p><b>9 Mage's Disjunction:</b> Dispels magic, disenchants magic items.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Plant</name>
+    <granted_powers>Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.Add Knowledge (nature) to your list of cleric class skills.</granted_powers>
+    <spell_1>entangle</spell_1>
+    <spell_2>barkskin</spell_2>
+    <spell_3>plant growth</spell_3>
+    <spell_4>command plants</spell_4>
+    <spell_5>wall of thorns</spell_5>
+    <spell_6>repel wood</spell_6>
+    <spell_7>animate plants</spell_7>
+    <spell_8>control plants</spell_8>
+    <spell_9>shambler</spell_9>
+    <full_text>
+      <div topic="Plant Domain" level="4"><p><h4>Plant Domain</h4></p><div topic="Granted Powers" level="8"><p><b>Granted Powers:</b> Rebuke or command plant creatures as an evil cleric rebukes or commands undead. Use this ability a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</p><p>Add Knowledge (nature) to your list of cleric class skills.</p>
+</div><div topic="Plant Domain Spells" level="5"><p><h5><b>Plant Domain Spells</b></h5></p><div topic="Entangle" level="8"><p><b>1 Entangle:</b> Plants entangle everyone in 40-ft. -radius.</p>
+</div><div topic="Barkskin" level="8"><p><b>2 Barkskin:</b> Grants +2 (or higher) enhancement to natural armor.</p>
+</div><div topic="Plant Growth" level="8"><p><b>3 Plant Growth:</b> Grows vegetation, improves crops.</p>
+</div><div topic="Command Plants" level="8"><p><b>4 Command Plants:</b> Sway the actions of one or more plant creatures.</p>
+</div><div topic="Wall of Thorns" level="8"><p><b>5 Wall of Thorns:</b> Thorns damage anyone who tries to pass.</p>
+</div><div topic="Repel Wood" level="8"><p><b>6 Repel Wood:</b> Pushes away wooden objects.</p>
+</div><div topic="Animate Plants" level="8"><p><b>7 Animate Plants:</b> One or more trees animate and fight for you.</p>
+</div><div topic="Control Plants" level="8"><p><b>8 Control Plants:</b> Control actions of one or more plant creatures.</p>
+</div><div topic="Shambler" level="8"><p><b>9 Shambler:</b> Summons 1d4+2 shambling mounds to fight for you.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Protection</name>
+    <granted_powers>You can generate a protective ward as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The protective ward is an abjuration effect with a duration of 1 hour that is usable once per day.</granted_powers>
+    <spell_1>sanctuary</spell_1>
+    <spell_2>shield other</spell_2>
+    <spell_3>protection from energy</spell_3>
+    <spell_4>spell immunity</spell_4>
+    <spell_5>spell resistance</spell_5>
+    <spell_6>antimagic field</spell_6>
+    <spell_7>repulsion</spell_7>
+    <spell_8>mind blank</spell_8>
+    <spell_9>prismatic sphere</spell_9>
+    <full_text>
+      <div topic="Protection Domain" level="4"><p><h4>Protection Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You can generate a <i>protective ward</i> as a supernatural ability. Grant someone you touch a resistance bonus equal to your cleric level on his or her next saving throw. Activating this power is a standard action. The <i>protective ward</i> is an abjuration effect with a duration of 1 hour that is usable once per day.</p>
+</div><div topic="Protection Domain Spells" level="5"><p><h5><b>Protection Domain Spells</b></h5></p><div topic="Sanctuary" level="8"><p><b>1 Sanctuary:</b> Opponents can't attack you, and you can't attack.</p>
+</div><div topic="Shield Other" level="8"><p><b>2 Shield Other:</b> You take half of subject's damage.</p>
+</div><div topic="Protection from Energy" level="8"><p><b>3 Protection from Energy:</b> Absorb 12 points/level of damage from one kind of energy.</p>
+</div><div topic="Spell Immunity" level="8"><p><b>4 Spell Immunity:</b> Subject is immune to one spell per four levels.</p>
+</div><div topic="Spell Resistance" level="8"><p><b>5 Spell Resistance:</b> Subject gains spell resistance 12 + level.</p>
+</div><div topic="Antimagic Field" level="8"><p><b>6 Antimagic Field:</b> Negates magic within 10 ft.</p>
+</div><div topic="Repulsion" level="8"><p><b>7 Repulsion:</b> Creatures can't approach you.</p>
+</div><div topic="Mind Blank" level="8"><p><b>8 Mind Blank:</b> Subject is immune to mental/emotional magic and scrying.</p>
+</div><div topic="Prismatic Sphere" level="8"><p><b>9 Prismatic Sphere:</b> As <i>prismatic wall</i>, but surrounds on all sides.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Strength</name>
+    <granted_powers>You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per day.</granted_powers>
+    <spell_1>enlarge person</spell_1>
+    <spell_2>bull's strength</spell_2>
+    <spell_3>magic vestment</spell_3>
+    <spell_4>spell immunity</spell_4>
+    <spell_5>righteous might</spell_5>
+    <spell_6>stoneskin</spell_6>
+    <spell_7>grasping hand</spell_7>
+    <spell_8>clenched fist</spell_8>
+    <spell_9>crushing hand</spell_9>
+    <full_text>
+      <div topic="Strength Domain" level="4"><p><h4>Strength Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> You can perform a feat of strength as a supernatural ability. You gain an enhancement bonus to Strength equal to your cleric level. Activating the power is a free action, the power lasts 1 round, and it is usable once per day.</p>
+</div><div topic="Strength Domain Spells" level="5"><p><h5><b>Strength Domain Spells</b></h5></p><div topic="Enlarge Person" level="8"><p><b>1 Enlarge Person:</b> Humanoid creature doubles in size.</p>
+</div><div topic="Bull's Strength" level="8"><p><b>2 Bull's Strength:</b> Subject gains +4 to Str for 1 min./level.</p>
+</div><div topic="Magic Vestment" level="8"><p><b>3 Magic Vestment:</b> Armor or shield gains +1 enhancement per four levels.</p>
+</div><div topic="Spell Immunity" level="8"><p><b>4 Spell Immunity:</b> Subject is immune to one spell per four levels.</p>
+</div><div topic="Righteous Might" level="8"><p><b>5 Righteous Might:</b> Your size increases, and you gain combat bonuses.</p>
+</div><div topic="Stoneskin" level="8"><p><b>6 Stoneskin:</b> Ignore 10 points of damage per attack.</p>
+</div><div topic="Grasping Hand" level="8"><p><b>7 Grasping Hand:</b> Large hand provides cover, pushes, or grapples.</p>
+</div><div topic="Clenched Fist" level="8"><p><b>8 Clenched Fist:</b> Large hand provides cover, pushes, or attacks your foes.</p>
+</div><div topic="Crushing Hand" level="8"><p><b>9 Crushing Hand:</b> Large hand provides cover, pushes, or crushes your foes.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Sun</name>
+    <granted_powers>Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.</granted_powers>
+    <spell_1>endure elements</spell_1>
+    <spell_2>heat metal</spell_2>
+    <spell_3>searing light</spell_3>
+    <spell_4>fire shield</spell_4>
+    <spell_5>flame strike</spell_5>
+    <spell_6>fire seeds</spell_6>
+    <spell_7>sunbeam</spell_7>
+    <spell_8>sunburst</spell_8>
+    <spell_9>prismatic sphere</spell_9>
+    <full_text>
+      <div topic="Sun Domain" level="4"><p><h4>Sun Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Once per day, you can perform a greater turning against undead in place of a regular turning. The greater turning is like a normal turning except that the undead creatures that would be turned are destroyed instead.</p>
+</div><div topic="Sun Domain Spells" level="5"><p><h5><b>Sun Domain Spells</b></h5></p><div topic="Endure Elements" level="8"><p><b>1 Endure Elements:</b> Exist comfortably in hot or cold environments.</p>
+</div><div topic="Heat Metal" level="8"><p><b>2 Heat Metal:</b> Make metal so hot it damages those who touch it.</p>
+</div><div topic="Searing Light" level="8"><p><b>3 Searing Light:</b> Ray deals 1d8/two levels, more against undead.</p>
+</div><div topic="Fire Shield" level="8"><p><b>4 Fire Shield:</b> Creatures attacking you take fire damage; you're protected from heat or cold.</p>
+</div><div topic="Flame Strike" level="8"><p><b>5 Flame Strike:</b> Smite foes with divine fire (1d6/level damage).</p>
+</div><div topic="Fire Seeds" level="8"><p><b>6 Fire Seeds:</b> Acorns and berries become grenades and bombs.</p>
+</div><div topic="Sunbeam" level="8"><p><b>7 Sunbeam:</b> Beam blinds and deals 4d6 damage.</p>
+</div><div topic="Sunburst" level="8"><p><b>8 Sunburst:</b> Blinds all within 10 ft., deals 6d6 damage.</p>
+</div><div topic="Prismatic Sphere" level="8"><p><b>9 Prismatic Sphere:</b> As <i>prismatic wall</i>, but surrounds on all sides.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Travel</name>
+    <granted_powers>For a total time per day of 1 round per cleric level you possess, you can act normally regardless of magical effects that impede movement as if you were affected by the spell freedom of movement. This effect occurs automatically as soon as it applies, lasts until it runs out or is no longer needed, and can operate multiple times per day (up to the total daily limit of rounds).This granted power is a supernatural ability.Add Survival to your list of cleric class skills.</granted_powers>
+    <spell_1>longstrider</spell_1>
+    <spell_2>locate object</spell_2>
+    <spell_3>fly</spell_3>
+    <spell_4>dimension door</spell_4>
+    <spell_5>teleport</spell_5>
+    <spell_6>find the path</spell_6>
+    <spell_7>greater teleport</spell_7>
+    <spell_8>phase door</spell_8>
+    <spell_9>astral projection</spell_9>
+    <full_text>
+      <div topic="Travel Domain" level="4"><p><h4>Travel Domain</h4></p><div topic="Granted Powers" level="8"><p><b>Granted Powers:</b> For a total time per day of 1 round per cleric level you possess, you can act normally regardless of magical effects that impede movement as if you were affected by the spell <i>freedom of movement</i>. This effect occurs automatically as soon as it applies, lasts until it runs out or is no longer needed, and can operate multiple times per day (up to the total daily limit of rounds).</p><p>This granted power is a supernatural ability.</p><p>Add Survival to your list of cleric class skills.</p>
+</div><div topic="Travel Domain Spells" level="5"><p><h5><b>Travel Domain Spells</b></h5></p><div topic="Longstrider" level="8"><p><b>1 Longstrider:</b> Increases your speed.</p>
+</div><div topic="Locate Object" level="8"><p><b>2 Locate Object:</b> Senses direction toward object (specific or type).</p>
+</div><div topic="Fly" level="8"><p><b>3 Fly:</b> Subject flies at speed of 60 ft.</p>
+</div><div topic="Dimension Door" level="8"><p><b>4 Dimension Door:</b> Teleports you short distance.</p>
+</div><div topic="Teleport" level="8"><p><b>5 Teleport:</b> Instantly transports you as far as 100 miles/level.</p>
+</div><div topic="Find the Path" level="8"><p><b>6 Find the Path:</b> Shows most direct way to a location.</p>
+</div><div topic="Teleport, Greater" level="8"><p><b>7 Teleport, Greater:</b> As <i>teleport</i>,  but no range limit and no off-target arrival.</p>
+</div><div topic="Phase Door" level="8"><p><b>8 Phase Door:</b> Creates an invisible passage through wood or stone.</p>
+</div><div topic="Astral Projection" level="8"><p><b>9 Astral Projection:</b> Projects you and companions onto Astral Plane.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Trickery</name>
+    <granted_powers>Add Bluff, Disguise, and Hide to your list of cleric class skills.</granted_powers>
+    <spell_1>disguise self</spell_1>
+    <spell_2>invisibility</spell_2>
+    <spell_3>nondetection</spell_3>
+    <spell_4>confusion</spell_4>
+    <spell_5>false vision</spell_5>
+    <spell_6>mislead</spell_6>
+    <spell_7>screen</spell_7>
+    <spell_8>polymorph any object</spell_8>
+    <spell_9>time stop</spell_9>
+    <full_text>
+      <div topic="Trickery Domain" level="4"><p><h4>Trickery Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Add Bluff, Disguise, and Hide to your list of cleric class skills.</p>
+</div><div topic="Trickery Domain Spells" level="5"><p><h5><b>Trickery Domain Spells</b></h5></p><div topic="Disguise Self" level="8"><p><b>1 Disguise Self:</b> Disguise own appearance.</p>
+</div><div topic="Invisibility" level="8"><p><b>2 Invisibility:</b> Subject invisible 1 min./level or until it attacks.</p>
+</div><div topic="Nondetection" level="8"><p><b>3 Nondetection:</b> Hides subject from divination, scrying.</p>
+</div><div topic="Confusion" level="8"><p><b>4 Confusion:</b> Subjects behave oddly for 1 round/level.</p>
+</div><div topic="False Vision" level="8"><p><b>5 False Vision:</b> Fools scrying with an illusion.</p>
+</div><div topic="Mislead" level="8"><p><b>6 Mislead:</b> Turns you invisible and creates illusory double.</p>
+</div><div topic="Screen" level="8"><p><b>7 Screen:</b> Illusion hides area from vision, scrying.</p>
+</div><div topic="Polymorph Any Object" level="8"><p><b>8 Polymorph Any Object:</b> Changes any subject into anything else.</p>
+</div><div topic="Time Stop" level="8"><p><b>9 Time Stop:</b> You act freely for 1d4+1 rounds.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>War</name>
+    <granted_powers>Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.</granted_powers>
+    <spell_1>magic weapon</spell_1>
+    <spell_2>spiritual weapon</spell_2>
+    <spell_3>magic vestment</spell_3>
+    <spell_4>divine power</spell_4>
+    <spell_5>flame strike</spell_5>
+    <spell_6>blade barrier</spell_6>
+    <spell_7>power word blind</spell_7>
+    <spell_8>power word stun</spell_8>
+    <spell_9>power word kill</spell_9>
+    <full_text>
+      <div topic="War Domain" level="4"><p><h4>War Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.</p>
+</div><div topic="War Domain Spells" level="5"><p><h5><b>War Domain Spells</b></h5></p><div topic="Magic Weapon" level="8"><p><b>1 Magic Weapon:</b> Weapon gains +1 bonus.</p>
+</div><div topic="Spiritual Weapon" level="8"><p><b>2 Spiritual Weapon:</b> Magical weapon attacks on its own.</p>
+</div><div topic="Magic Vestment" level="8"><p><b>3 Magic Vestment:</b> Armor or shield gains +1 enhancement per four levels.</p>
+</div><div topic="Divine Power" level="8"><p><b>4 Divine Power:</b> You gain attack bonus, +6 to Str, and 1 hp/level.</p>
+</div><div topic="Flame Strike" level="8"><p><b>5 Flame Strike:</b> Smite foes with divine fire (1d6/level damage).</p>
+</div><div topic="Blade Barrier" level="8"><p><b>6 Blade Barrier:</b> Wall of blades deals 1d6/level damage.</p>
+</div><div topic="Power Word Blind" level="8"><p><b>7 Power Word Blind:</b> Blinds creature with 200 hp or less.</p>
+</div><div topic="Power Word Stun" level="8"><p><b>8 Power Word Stun:</b> Stuns creature with 150 hp or less.</p>
+</div><div topic="Power Word Kill" level="8"><p><b>9 Power Word Kill:</b> Kills creature with 100 hp or less.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+  <domain>
+    <name>Water</name>
+    <granted_powers>Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</granted_powers>
+    <spell_1>obscuring mist</spell_1>
+    <spell_2>fog cloud</spell_2>
+    <spell_3>water breathing</spell_3>
+    <spell_4>control water</spell_4>
+    <spell_5>ice storm</spell_5>
+    <spell_6>cone of cold</spell_6>
+    <spell_7>acid fog</spell_7>
+    <spell_8>horrid wilting</spell_8>
+    <spell_9>elemental swarm</spell_9>
+    <full_text>
+      <div topic="Water Domain" level="4"><p><h4>Water Domain</h4></p><div topic="Granted Power" level="8"><p><b>Granted Power:</b> Turn or destroy fire creatures as a good cleric turns undead. Rebuke, command, or bolster water creatures as an evil cleric rebukes undead. Use these abilities a total number of times per day equal to 3 + your Charisma modifier. This granted power is a supernatural ability.</p>
+</div><div topic="Water Domain Spells" level="5"><p><h5><b>Water Domain Spells</b></h5></p><div topic="Obscuring Mist" level="8"><p><b>1 Obscuring Mist:</b> Fog surrounds you.</p>
+</div><div topic="Fog Cloud" level="8"><p><b>2 Fog Cloud:</b> Fog obscures vision.</p>
+</div><div topic="Water Breathing" level="8"><p><b>3 Water Breathing:</b> Subjects can breathe underwater.</p>
+</div><div topic="Control Water" level="8"><p><b>4 Control Water:</b> Raises or lowers bodies of water.</p>
+</div><div topic="Ice Storm" level="8"><p><b>5 Ice Storm:</b> Hail deals 5d6 damage in cylinder 40 ft. across.</p>
+</div><div topic="Cone of Cold" level="8"><p><b>6 Cone of Cold:</b> 1d6/level cold damage.</p>
+</div><div topic="Acid Fog" level="8"><p><b>7 Acid Fog:</b> Fog deals acid damage.</p>
+</div><div topic="Horrid Wilting" level="8"><p><b>8 Horrid Wilting:</b> Deals 1d6/level damage within 30 ft.</p>
+</div><div topic="Elemental Swarm" level="8"><p><b>9 Elemental Swarm*:</b> Summons multiple elementals.</p>
+</div>
+</div>
+</div>
+    </full_text>
+    <reference>SRD 3.5 SpellListI</reference>
+  </domain>
+</domains>

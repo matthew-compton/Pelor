@@ -1,0 +1,18 @@
+v1.3:
+
+Added domains
+Some fields have changed, please review each table's structure
+Many fixes for formatting errors (thanks to Matt Haffner, and others)
+
+v1.2:
+Classes in spell levels converted to long names
+Added spell_stat and spell_type fields to classes
+Removed stray anchor tag in full texts
+Fixed monster stat blocks
+Miscellaneous data fixes
+
+v1.1a:
+
+Added DROP TABLE IF EXISTS to the MySQL file. Sorry for the trouble that caused. No content changes.
+
+Andargor

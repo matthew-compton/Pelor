@@ -1,0 +1,5 @@
+Like the name says, you need to create a database called dnd35 before loading the MySQL data.
+
+Use latin1 for import, not utf8.
+
+Andargor
