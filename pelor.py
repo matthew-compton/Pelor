@@ -2,11 +2,13 @@
 
 import cmd, sys
 
+# class for command-line interpreter
 class PelorShell(cmd.Cmd):
+
 	intro = "Hail Pelor!\nType 'help' or '?' to list commands.\nType 'quit' or 'exit' to escape.\n"
-	prompt = 'pelor ~ $ '
-	ruler = '-'
-    
+	prompt = "pelor ~ $ "
+	ruler = "-"
+		
 	# ----- Commands -----
 	
 	# color
@@ -16,9 +18,9 @@ class PelorShell(cmd.Cmd):
 		else:
 			print str(arg)
 	def help_color(self):
-		print 'Prints the name of a color.'
+		print "Prints the name of a color."
 	def complete_color(self, text, line, begidx, endidx):
-		options = ['blue', 'green', 'yellow', 'red', 'black']
+		options = ["blue", "green", "yellow", "red", "black"]
 		if text:
 			return [i for i in options if i.startswith(text)]
 		else:
@@ -28,7 +30,7 @@ class PelorShell(cmd.Cmd):
 	def do_exit(self, s):
 		return True
 	def help_exit(self):
-		print "Exit the interpreter."
+		print "Quit the interpreter."
 		
 	# quit
 	do_quit = do_exit
@@ -44,6 +46,6 @@ class PelorShell(cmd.Cmd):
 	def can_exit(self):
 		return True
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 	shell = PelorShell()
 	shell.cmdloop()
