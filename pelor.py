@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import cmd, sys
 
 class PelorShell(cmd.Cmd):
@@ -8,7 +10,6 @@ class PelorShell(cmd.Cmd):
 	# ----- Commands -----
 	
 	# color
-	_AVAILABLE_COLORS = ('blue', 'green', 'yellow', 'red', 'black')
 	def do_color(self, arg):
 		if arg == "":
 			print "Enter color."
@@ -17,7 +18,11 @@ class PelorShell(cmd.Cmd):
 	def help_color(self):
 		print 'Prints the name of a color.'
 	def complete_color(self, text, line, begidx, endidx):
-		return [i for i in _AVAILABLE_COLORS if i.startswith(text)]
+		options = ['blue', 'green', 'yellow', 'red', 'black']
+		if text:
+			return [i for i in options if i.startswith(text)]
+		else:
+			return options
 
 	# exit
 	def do_exit(self, s):
@@ -41,4 +46,4 @@ class PelorShell(cmd.Cmd):
 
 if __name__ == '__main__':
 	shell = PelorShell()
-    shell.cmdloop()
+	shell.cmdloop()
