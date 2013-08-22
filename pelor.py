@@ -1,9 +1,26 @@
 #!/usr/bin/python
 
+import sqlite3 as db
 import cmd, sys
 
 # class for command-line interpreter
 class PelorShell(cmd.Cmd):
+
+	con = None
+	try:
+		con = db.connect('test.db')
+		cur = con.cursor()    
+		cur.execute('SELECT SQLITE_VERSION()')
+		data = cur.fetchone()
+		print "SQLite version: %s" % data                
+
+	except db.Error, e:
+		print "Error %s:" % e.args[0]
+		sys.exit(1)
+
+	finally:
+		if con:
+			con.close()
 
 	intro = "Hail Pelor!\nType 'help' or '?' to list commands.\nType 'quit' or 'exit' to escape.\n"
 	prompt = "pelor ~ $ "
