@@ -1,26 +1,34 @@
 #!/usr/bin/python
 
-import sqlite3 as db
+import MySQLdb as mysql
 import cmd, sys
 
 # class for command-line interpreter
 class PelorShell(cmd.Cmd):
 
-	con = None
+	# Open database connection
+	db = mysql.Connection(host="localhost", user="root", passwd="root", db="dnd35")
+
+	# prepare a cursor object using cursor() method
+	cursor = db.cursor()
+
+	# Prepare SQL query to INSERT a record into the database.
+	sql = '''SELECT name, hit_dice FROM monster ORDER BY name''';
 	try:
-		con = db.connect('test.db')
-		cur = con.cursor()    
-		cur.execute('SELECT SQLITE_VERSION()')
-		data = cur.fetchone()
-		print "SQLite version: %s" % data                
-
-	except db.Error, e:
-		print "Error %s:" % e.args[0]
-		sys.exit(1)
-
-	finally:
-		if con:
-			con.close()
+	   # Execute the SQL command
+	   cursor.execute(sql)
+	   # Fetch all the rows in a list of lists.
+	   results = cursor.fetchall()
+	   for row in results:
+		  name = row[0]
+		  hp = row[1]
+		  # Now print fetched result
+		  print "name=%s,hp=%s" % (name, hp)
+	except:
+	   print "Error: unable to fetch data."
+	   
+	# disconnect from server
+	db.close()
 
 	intro = "Hail Pelor!\nType 'help' or '?' to list commands.\nType 'quit' or 'exit' to escape.\n"
 	prompt = "pelor ~ $ "
