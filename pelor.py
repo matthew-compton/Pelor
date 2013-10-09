@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import MySQLdb as mysql
+import MySQLdb.cursors
 import cmd, sys
 
 # Open database connection
@@ -12,15 +13,33 @@ def queryClass(_name):
     global db
     global cursor
     _table = "class"
-    sql = "SELECT name, type, hit_die, class_skills, skill_points, spell_stat, proficiencies FROM " + _table + " WHERE name =\"" + _name + "\";"
-    print sql
+    sql = ("SELECT "
+               "name, "
+               "type, "
+               "hit_die, "
+               "class_skills, "
+               "skill_points, "
+               "spell_stat, "
+               "proficiencies, "
+               "IFNULL(req_race, NULL) AS req_race, "
+               "IFNULL(req_weapon_proficiency, NULL) AS req_weapon_proficiency, "
+               "IFNULL(req_base_attack_bonus, NULL) AS req_base_attack_bonus, "
+               "IFNULL(req_skill, NULL) AS req_skill, "
+               "IFNULL(req_feat, NULL) AS req_feat, "
+               "IFNULL(req_spells, NULL) AS req_spells, "
+               "IFNULL(req_languages, NULL) AS req_languages, "
+               "IFNULL(req_psionics, NULL) AS req_psionics, "
+               "IFNULL(req_epic_feat, NULL) AS req_epic_feat, "
+               "IFNULL(req_special, NULL) AS req_special "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
@@ -216,7 +235,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("class"))
         else:
-            print "\n".join(queryClass(str(arg)))
+            for attribute in queryClass(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_class(self):
         print "Queries for information about classes."
     def complete_class(self, text, line, begidx, endidx):
