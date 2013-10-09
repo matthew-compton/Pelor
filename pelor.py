@@ -280,7 +280,11 @@ class PelorShell(cmd.Cmd):
             print "\n".join(queryList("class"))
         else:
             for attribute in queryClass(str(arg)):
-                print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
+                if attribute[0] == "skill_points":
+                    print "> " + "Initial " + attribute[0].replace("_", " ").capitalize() + ": " +"(Int + " + attribute[1] + ") * 4"
+                    print "> " +  "Additional " + attribute[0].replace("_", " ").capitalize() + " at Level Up" + ": " +"Int + " + attribute[1]  
+                else:
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_class(self):
         print "Queries for information about classes."
     def complete_class(self, text, line, begidx, endidx):
