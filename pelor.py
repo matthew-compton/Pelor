@@ -49,14 +49,27 @@ def queryDomain(_name):
     global db
     global cursor
     _table = "domain"
-    sql = "SELECT name, granted_powers, spell_1, spell_2, spell_3, spell_4, spell_5, spell_6, spell_7, spell_8, spell_9 FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name, "
+               "granted_powers, "
+               "spell_1, "
+               "spell_2, "
+               "spell_3, "
+               "spell_4, "
+               "spell_5, "
+               "spell_6, "
+               "spell_7, "
+               "spell_8, "
+               "spell_9 "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
@@ -241,7 +254,7 @@ class PelorShell(cmd.Cmd):
     def help_class(self):
         print "Queries for information about classes."
     def complete_class(self, text, line, begidx, endidx):
-        option = queryList("class")
+        options = queryList("class")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -252,11 +265,13 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("domain"))
         else:
-            print "\n".join(queryDomain(str(arg)))
+             for attribute in queryDomain(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_domain(self):
         print "Queries for information about domains."
     def complete_domain(self, text, line, begidx, endidx):
-        option = queryList("domain")
+        options = queryList("domain")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -271,7 +286,7 @@ class PelorShell(cmd.Cmd):
     def help_equipment(self):
         print "Queries for information about equipments."
     def complete_equipment(self, text, line, begidx, endidx):
-        option = queryList("equipment")
+        options = queryList("equipment")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -286,7 +301,7 @@ class PelorShell(cmd.Cmd):
     def help_feat(self):
         print "Queries for information about feats."
     def complete_feat(self, text, line, begidx, endidx):
-        option = queryList("feat")
+        options = queryList("feat")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -301,7 +316,7 @@ class PelorShell(cmd.Cmd):
     def help_item(self):
         print "Queries for information about items."
     def complete_item(self, text, line, begidx, endidx):
-        option = queryList("item")
+        options = queryList("item")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -331,7 +346,7 @@ class PelorShell(cmd.Cmd):
     def help_power(self):
         print "Queries for information about powers."
     def complete_power(self, text, line, begidx, endidx):
-        option = queryList("power")
+        options = queryList("power")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -346,7 +361,7 @@ class PelorShell(cmd.Cmd):
     def help_skill(self):
         print "Queries for information about skills."
     def complete_skill(self, text, line, begidx, endidx):
-        option = queryList("skill")
+        options = queryList("skill")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
@@ -361,7 +376,7 @@ class PelorShell(cmd.Cmd):
     def help_spell(self):
         print "Queries for information about spells."
     def complete_spell(self, text, line, begidx, endidx):
-        option = queryList("spell")
+        options = queryList("spell")
         if text:
             return [i for i in options if i.startswith(text)]
         else:
