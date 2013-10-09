@@ -79,48 +79,57 @@ def queryEquipment(_name):
     global db
     global cursor
     _table = "equipment"
-    sql = "SELECT name FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
-
+ 
 # Queries the database for feat information
 def queryFeat(_name):
     global db
     global cursor
     _table = "feat"
-    sql = "SELECT name FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
-    return columns
+    return columns 
 
 # Queries the database for item information
 def queryItem(_name):
     global db
     global cursor
     _table = "item"
-    sql = "SELECT name FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
@@ -130,16 +139,21 @@ def queryMonster(_name):
     global db
     global cursor
     _table = "monster"
-    sql = "SELECT name, hit_dice, armor_class FROM " + _table + " WHERE name = \"" + _name + "\";"
+    sql = ("SELECT "
+               "name, "
+               "hit_dice, "
+               "armor_class "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
-       print "Error: unable to fetch data."
+        print "Error: unable to fetch data."
     return columns
 
 # Queries the database for power information
@@ -147,14 +161,17 @@ def queryPower(_name):
     global db
     global cursor
     _table = "power"
-    sql = "SELECT name FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
@@ -164,14 +181,17 @@ def querySkill(_name):
     global db
     global cursor
     _table = "skill"
-    sql = "SELECT name FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
@@ -181,18 +201,20 @@ def querySpell(_name):
     global db
     global cursor
     _table = "spell"
-    sql = "SELECT name FROM " + _table + " WHERE name =\"" + _name + "\";"
+    sql = ("SELECT "
+               "name "
+           "FROM ") + _table + (" "
+           "WHERE name =\"") + _name + "\";"
     columns = []
     try:
         cursor.execute(sql)
         results = cursor.fetchall()
         for row in results:
-            for stat in row:
-                columns.append(str(stat))
+            for index in range(len(row)):
+                columns.append((cursor.description[index][0],str(row[index])))
     except:
         print "Error: unable to fetch data."
     return columns
-
 
 # Queries the database for the columns of a table
 def queryColumns(_table):
@@ -282,7 +304,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("equipment"))
         else:
-            print "\n".join(queryEquipment(str(arg)))
+             for attribute in queryEquipment(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_equipment(self):
         print "Queries for information about equipments."
     def complete_equipment(self, text, line, begidx, endidx):
@@ -297,7 +321,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("feat"))
         else:
-            print "\n".join(queryFeat(str(arg)))
+             for attribute in queryFeat(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_feat(self):
         print "Queries for information about feats."
     def complete_feat(self, text, line, begidx, endidx):
@@ -312,7 +338,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("item"))
         else:
-            print "\n".join(queryItem(str(arg)))
+             for attribute in queryItem(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_item(self):
         print "Queries for information about items."
     def complete_item(self, text, line, begidx, endidx):
@@ -327,7 +355,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("monster"))
         else:
-            print "\n".join(queryMonster(str(arg)))
+             for attribute in queryMonster(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_monster(self):
         print "Queries for information about monsters."
     def complete_monster(self, text, line, begidx, endidx):
@@ -342,7 +372,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("power"))
         else:
-            print "\n".join(queryPower(str(arg)))
+             for attribute in queryPower(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_power(self):
         print "Queries for information about powers."
     def complete_power(self, text, line, begidx, endidx):
@@ -357,7 +389,9 @@ class PelorShell(cmd.Cmd):
         if arg == "":
             print "\n".join(queryList("skill"))
         else:
-            print "\n".join(querySkill(str(arg)))
+             for attribute in querySkill(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_skill(self):
         print "Queries for information about skills."
     def complete_skill(self, text, line, begidx, endidx):
@@ -366,13 +400,15 @@ class PelorShell(cmd.Cmd):
             return [i for i in options if i.startswith(text)]
         else:
             return options
-    
+
     # spell
     def do_spell(self, arg):
         if arg == "":
             print "\n".join(queryList("spell"))
         else:
-            print "\n".join(querySpell(str(arg)))
+             for attribute in querySpell(str(arg)):
+                if not attribute[1] == "None":
+                    print "> " + attribute[0].replace("_", " ").capitalize() + ": " + attribute[1]
     def help_spell(self):
         print "Queries for information about spells."
     def complete_spell(self, text, line, begidx, endidx):
